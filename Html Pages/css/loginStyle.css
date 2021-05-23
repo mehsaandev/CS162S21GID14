@@ -1,0 +1,80 @@
+.LoginBlock{
+    position: absolute;
+    display: block;
+    border: 2px solid white;
+    margin: 147px 35%;
+    padding: 20px 20px;
+    width: 450px;
+    height: 300px;
+    border-radius: 3%;
+    color: white;
+    background-color: white;
+}
+.LoginInput{
+    display: inline-block;
+}
+.LoginInput input:focus{
+    outline: none;
+}
+.LoginInput input,button{
+    font-size: large;
+    position: absolute;
+    border: 1px solid grey;
+    /* margin: 200px 40%; */
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.forget{
+    position:sticky;
+    margin: 340px 689px;
+    color: rgb(66, 66, 221);
+}
+.forget a{
+    padding-left: 10px;
+    font-size: 100%;
+    text-decoration: none;
+}
+.forget a:hover{
+    color: blue;
+}
+
+.login{
+    margin: 400px 40%;
+    font-weight: bold;
+    background-color: #1570e6e0;
+    color: white;
+}
+.create{
+    margin: 550px 40%;
+    font-weight: bold;
+    background-color:rgb(76, 202, 76);
+    color: white;
+}
+.LoginInput .login:hover{
+    background-color: #197cfde0;
+    cursor: pointer;
+}
+.LoginInput .login:active{
+    background-color: blue;
+}
+.LoginInput .create:hover{
+
+    background-color:rgb(74, 211, 74);
+    cursor: pointer;
+}
+.LoginInput .create:active{
+    background-color:green
+}
+
+.username{
+    margin: 200px 40%;
+}
+.Pass{
+     margin: 270px 40%;
+}
+body{
+    background-color: rgba(198, 201, 226, 0.39);
+}

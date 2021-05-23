@@ -1,0 +1,87 @@
+.LoginBlock{
+   position: absolute;
+   display: block;
+   border: 2px solid white;
+   margin: 62px 20%;
+   padding: 12px 2px;
+   width: 63%;
+   height: 80%;
+   border-radius: 3%;
+   color: white;
+   background-color: white;
+}
+.LoginInput{
+   display: inline-block;
+}
+.LoginInput input:focus{
+   outline: none;
+}
+.LoginInput input,button{
+   font-size: large;
+   position: absolute;
+   border: 1px solid grey;
+   /* margin: 200px 40%; */
+   text-align: center;
+   width: 350px;
+   height: 50px;
+   border-radius: 10px;
+}
+
+.forget{
+   position:sticky;
+   margin: 340px 689px;
+   color: rgb(66, 66, 221);
+}
+.forget a{
+   padding-left: 10px;
+   font-size: 100%;
+   text-decoration: none;
+}
+.forget a:hover{
+   color: blue;
+}
+
+
+.create{
+   margin: 543px 40%;
+   font-weight: bold;
+   background-color:rgb(76, 202, 76);
+   color: white;
+}
+
+.LoginInput .create:hover{
+
+   background-color:rgb(74, 211, 74);
+   cursor: pointer;
+}
+.LoginInput .create:active{
+   background-color:green
+}
+
+.Fname{
+   margin: 183px 24%;
+}
+.Lname{
+   margin: 183px 56%;
+}
+.email{
+   margin: 270px 24%;
+}
+.cemail{
+   margin: 357px 24%;
+}
+.Pass{
+    margin: 440px 24%;
+}
+body{
+   background-color: rgba(198, 201, 226, 0.39);
+}
+
+.LoginInput p{
+   position: absolute;
+   text-overflow: clip;
+   margin: 86px 615px;
+   padding: 0px 0px;
+   font-size: 30px;
+   overflow: hidden;
+}
